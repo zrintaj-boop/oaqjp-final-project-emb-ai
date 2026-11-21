@@ -1,0 +1,12 @@
+طريقة رفع مشروع IBM من الآيباد
+
+1) حمّلي ملف ZIP وافتحيه في تطبيق «الملفات» على iPad لفك الضغط.
+2) افتحي مستودعك العام: https://github.com/zrintaj-boop/oaqjp-final-project-emb-ai
+3) ارفعي ملفات المشروع المفكوكة إلى المستودع، وليس ملف ZIP وحده.
+4) يجب أن تظهر الملفات الرئيسية في جذر المستودع: README.md وserver.py وemotion_detection.py وtest_emotion_detection.py وrequirements.txt.
+5) يجب أن يظهر مجلد EmotionDetection وفيه __init__.py وemotion_detection.py، ومجلدا templates وstatic مع ملفاتهما.
+6) في Safari قد تحتاجين إلى طلب «موقع ويب سطح المكتب» لتظهر أدوات Add file > Upload files.
+7) إن لم يسمح Safari برفع المجلدات، يمكن إنشاء الملفات داخل المسارات باستخدام Add file > Create new file؛ اكتبِ المسار كاملاً مثل EmotionDetection/__init__.py ثم الصقي المحتوى.
+8) لا ترفعي المشروع إلى التقييم قبل التأكد من وجود الملفات وتشغيله والحصول على لقطات الشاشة الفعلية.
+
+ملاحظة: اختبارات unittest هنا تستخدم ردود API تجريبية (mock)؛ ولا تُثبت عمل خدمة Watson المباشرة. تشغيل Flask وخدمة Watson يحتاج بيئة Python متصلة بالإنترنت.
